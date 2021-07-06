@@ -4,6 +4,11 @@ import enum
 import serial
 
 part_numbers = {
+    0x0402FF01: 'LPC2141',
+    0x0402FF11: 'LPC2142',
+    0x0402FF12: 'LPC2144',
+    0x0402FF23: 'LPC2146',
+    0x0402FF25: 'LPC2148',
     0x1600F701: 'LPC2361',
     0x1600FF22: 'LPC2362',
     0x1600F902: 'LPC2364',
